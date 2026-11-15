@@ -1,0 +1,8 @@
+{
+  "packages": [
+    { "name": "A", "requires": ["B", "D"] },
+    { "name": "B", "requires": ["D", "python"] },
+    { "name": "C", "requires": [] },
+    { "name": "D", "requires": [] }
+  ]
+}
